@@ -1,0 +1,15 @@
+target
+.project
+.classpath
+.settings
+# ignore IDEA files
+*.iml
+*.ipr
+*.iws
+.idea
+# ignore NetBeans files
+nbactions.xml
+nb-configuration.xml
+catalog.xml
+#
+pom.xml.versionsBackup
