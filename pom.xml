@@ -99,7 +99,6 @@
         <!-- Container images -->
         <quarkus.container-image.registry>quay.io</quarkus.container-image.registry>
         <quarkus.container-image.group>ecosystem-appeng</quarkus.container-image.group>
-        <quarkus.operator-sdk.crd.generate>false</quarkus.operator-sdk.crd.generate>
         
         <!-- Mercury Codegen -->
         <mercury.grpc.port>9000</mercury.grpc.port>
