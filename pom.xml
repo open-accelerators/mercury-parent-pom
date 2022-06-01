@@ -3,7 +3,7 @@
 
     <groupId>io.github.open-accelerators</groupId>
     <artifactId>mercury-parent</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Mercury Parent</name>
@@ -17,7 +17,7 @@
         <connection>scm:git:ssh://git@github.com/open-accelerators/mercury-parent-pom.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/open-accelerators/mercury-parent-pom.git</developerConnection>
         <url>https://github.com/open-accelerators/mercury-parent-pom/tree/main</url>
-      <tag>v1.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <distributionManagement>
