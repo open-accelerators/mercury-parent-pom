@@ -15,9 +15,9 @@
     <url>https://github.com/open-accelerators/mercury</url>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com/open-accelerators/mercury.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/open-accelerators/mercury.git</developerConnection>
-        <url>https://github.com/open-accelerators/mercury/tree/main</url>
+        <connection>scm:git:ssh://git@github.com/open-accelerators/mercury-parent-pom.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/open-accelerators/mercury-parent-pom.git</developerConnection>
+        <url>https://github.com/open-accelerators/mercury-parent-pom/tree/main</url>
     </scm>
 
     <distributionManagement>
