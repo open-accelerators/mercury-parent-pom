@@ -127,11 +127,6 @@
                 <version>${testcontainers.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.quarkiverse.operatorsdk</groupId>
-                <artifactId>quarkus-operator-sdk</artifactId>
-                <version>${operator-sdk.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
