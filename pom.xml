@@ -106,13 +106,6 @@
         <mercury.proto.version>v10</mercury.proto.version>
     </properties>
 
-    <modules>
-        <module>mercury-framework</module>
-        <module>mercury-operator</module>
-        <module>integration-tests</module>
-        <module>coverage</module>
-    </modules>
-
     <dependencyManagement>
         <dependencies>
             <dependency>

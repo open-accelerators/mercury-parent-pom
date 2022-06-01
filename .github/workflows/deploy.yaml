@@ -13,14 +13,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2.4.0
-      - name: Install xmllint
-        run: |
-          sudo apt-get update
-          sudo apt-get install libxml2-utils
-      - name: Set Mercury Version
-        run: |
-          MERCURY_VERSION=$(xmllint --xpath '/*[local-name()="project"]/*[local-name()="version"]/text()' pom.xml)
-          echo "MERCURY_VERSION=v${MERCURY_VERSION/-SNAPSHOT/}" >> $GITHUB_ENV
       - name: Set up Apache Maven Central
         uses: actions/setup-java@v3
         with:
