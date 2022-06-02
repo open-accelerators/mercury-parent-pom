@@ -81,7 +81,7 @@
         <quarkus.camel.version>${quarkus.platform.version}</quarkus.camel.version>
 
         <!-- override quarkus dependency on 5.12.x because Kafka.spec is not serialized properly -->
-        <testcontainers.version>1.16.3</testcontainers.version>
+        <testcontainers.version>1.17.2</testcontainers.version>
         <lombok.version>1.18.22</lombok.version>
         <builder-annotations.version>0.90.4</builder-annotations.version>
         <strimzi-api.version>0.28.0</strimzi-api.version>
