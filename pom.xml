@@ -78,7 +78,7 @@
         <operator-sdk.version>3.0.2</operator-sdk.version>
         <!-- depends on quarkus-operator-sdk -->
         <quarkus.platform.version>2.6.3.Final</quarkus.platform.version>
-        <quarkus.camel.version>${quarkus.platform.version}</quarkus.camel.version>
+        <quarkus.camel.version>2.10.1.Final</quarkus.camel.version>
 
         <!-- override quarkus dependency on 5.12.x because Kafka.spec is not serialized properly -->
         <testcontainers.version>1.16.3</testcontainers.version>
