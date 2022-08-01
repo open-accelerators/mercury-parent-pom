@@ -69,7 +69,7 @@
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
         <jandex-maven-plugin.version>1.2.2</jandex-maven-plugin.version>
         <maven-archetype-plugin.version>3.2.0</maven-archetype-plugin.version>
-        <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
+        <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
         <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
