@@ -17,8 +17,8 @@
         <connection>scm:git:ssh://git@github.com/open-accelerators/mercury-parent-pom.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/open-accelerators/mercury-parent-pom.git</developerConnection>
         <url>https://github.com/open-accelerators/mercury-parent-pom/tree/main</url>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <distributionManagement>
         <snapshotRepository>
@@ -75,16 +75,15 @@
         <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
         <build-helper-maven-plugin.version>3.3.0</build-helper-maven-plugin.version>
         
-        <operator-sdk.version>3.0.2</operator-sdk.version>
-        <!-- depends on quarkus-operator-sdk -->
-        <quarkus.platform.version>2.6.3.Final</quarkus.platform.version>
-        <quarkus.camel.version>${quarkus.platform.version}</quarkus.camel.version>
+        <operator-sdk.version>3.0.8</operator-sdk.version>
+        <!-- depends on operator-sdk.version -->
+        <quarkus.version>2.7.6.Final</quarkus.version>
 
-        <!-- override quarkus dependency on 5.12.x because Kafka.spec is not serialized properly -->
         <testcontainers.version>1.16.3</testcontainers.version>
         <lombok.version>1.18.22</lombok.version>
-        <builder-annotations.version>0.90.4</builder-annotations.version>
-        <strimzi-api.version>0.28.0</strimzi-api.version>
+        <!-- Depends on fabric8:kubernetes-client 5.12.2 -->
+        <builder-annotations.version>0.50.4</builder-annotations.version>
+        <strimzi-api.version>0.30.0</strimzi-api.version>
         <!-- CheckStyle -->
         <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
         <checkstyle.version>10.0</checkstyle.version>
@@ -117,7 +116,7 @@
             <dependency>
                 <groupId>io.quarkus.platform</groupId>
                 <artifactId>quarkus-camel-bom</artifactId>
-                <version>${quarkus.camel.version}</version>
+                <version>${quarkus.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -146,7 +145,7 @@
                 <plugin>
                     <groupId>io.quarkus</groupId>
                     <artifactId>quarkus-maven-plugin</artifactId>
-                    <version>${quarkus.platform.version}</version>
+                    <version>${quarkus.version}</version>
                     <extensions>true</extensions>
                     <executions>
                         <execution>
