@@ -88,7 +88,7 @@
         <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
         <checkstyle.version>10.0</checkstyle.version>
         <!-- Coverage -->
-        <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
+        <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
         <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
         <sonar.coverage.jacoco.xmlReportPaths>${basedir}/target/jacoco-jars</sonar.coverage.jacoco.xmlReportPaths>
         <!-- Sonar Cloud -->
