@@ -82,7 +82,7 @@
         <testcontainers.version>1.16.3</testcontainers.version>
         <lombok.version>1.18.22</lombok.version>
         <!-- Depends on fabric8:kubernetes-client 5.12.2 -->
-        <builder-annotations.version>0.50.4</builder-annotations.version>
+        <builder-annotations.version>0.93.2</builder-annotations.version>
         <strimzi-api.version>0.30.0</strimzi-api.version>
         <!-- CheckStyle -->
         <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
